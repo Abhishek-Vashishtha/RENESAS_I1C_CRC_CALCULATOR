@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Btn_cal_crc = new System.Windows.Forms.Button();
             this.Btn_brwse_Hex = new System.Windows.Forms.Button();
             this.Tb_crcval = new System.Windows.Forms.RichTextBox();
@@ -103,6 +104,7 @@
             this.Controls.Add(this.Tb_crcval);
             this.Controls.Add(this.Btn_brwse_Hex);
             this.Controls.Add(this.Btn_cal_crc);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CRC CALCULATOR";
